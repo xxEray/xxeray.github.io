@@ -25,7 +25,7 @@ custom_file_path:
   #postMeta: source/_data/post-meta.njk
   #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
-  #bodyEnd: source/_data/body-end.njk
+  bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
@@ -951,18 +951,3 @@ vendors:
 css: css
 js: js
 images: images
-
-# Friend Links
-friend_links:
-  # - name:
-  #   avatar:
-  #   site:
-  #   info: 
-  - name: Eray
-    avatar: https://xxeray.gitee.io/images/avatar/64x64.svg
-    site: https://xxeray.gitee.io/
-    info: 用文字记录生活，记录点滴，记录精彩！
-  - name: platelet's blog
-    avatar: https://platelet.top/images/avatar.png
-    site: https://platelet.top/
-    info: 天地不仁
