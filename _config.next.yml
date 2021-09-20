@@ -143,7 +143,6 @@ site_state: true
 social:
   GitHub: https://github.com/xxEray || fab fa-github
   邮箱: mailto:xxeray@qq.com || fa fa-envelope
-  语雀: https://yuque.com/eray/ || fa fa-dove
   RSS: /atom.xml || fa fa-rss
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
