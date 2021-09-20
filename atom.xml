@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eray&#39;s Blog</title>
+  
+  <subtitle>一旦你尝过天空的味道，你就会永远向上仰望。</subtitle>
+  <link href="https://xxeray.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xxeray.github.io/"/>
+  <updated>2021-09-19T13:28:46.701Z</updated>
+  <id>https://xxeray.github.io/</id>
+  
+  <author>
+    <name>Eray</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>后缀数组详解</title>
+    <link href="https://xxeray.github.io/post/suffix-array/"/>
+    <id>https://xxeray.github.io/post/suffix-array/</id>
+    <published>2021-08-10T00:17:24.000Z</published>
+    <updated>2021-09-19T13:28:46.701Z</updated>
+    
+    
+    <summary type="html">后缀数组是一类可以巧妙转化问题的字符串算法</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/information-technology/knowledge-point/"/>
+    
+    
+    <category term="算法" scheme="https://xxeray.github.io/tags/algorithm/"/>
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「Jack 的钻石」题解</title>
+    <link href="https://xxeray.github.io/post/jacks-diamond/"/>
+    <id>https://xxeray.github.io/post/jacks-diamond/</id>
+    <published>2021-07-14T14:14:15.000Z</published>
+    <updated>2021-09-19T13:28:45.720Z</updated>
+    
+    
+    <summary type="html">看似迷惑的题目，其实也有巧妙的解法！</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/information-technology/solution/"/>
+    
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ural 1013 K-based Numbers. Version 3 题解</title>
+    <link href="https://xxeray.github.io/post/ural-1013/"/>
+    <id>https://xxeray.github.io/post/ural-1013/</id>
+    <published>2021-05-01T02:49:21.000Z</published>
+    <updated>2021-09-19T13:28:46.698Z</updated>
+    
+    
+    <summary type="html">DP 的复杂度瓶颈真的就是线性吗？</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/information-technology/solution/"/>
+    
+    <category term="Ural" scheme="https://xxeray.github.io/categories/information-technology/solution/ural/"/>
+    
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-program/"/>
+    
+    <category term="矩阵" scheme="https://xxeray.github.io/tags/matrix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder ABC172 F - Unfair Nim 题解</title>
+    <link href="https://xxeray.github.io/post/atcoder-abc172-f/"/>
+    <id>https://xxeray.github.io/post/atcoder-abc172-f/</id>
+    <published>2021-04-03T01:04:50.000Z</published>
+    <updated>2021-09-19T13:28:45.719Z</updated>
+    
+    
+    <summary type="html">博弈论的题目一定就是 DP 吗？</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/information-technology/solution/"/>
+    
+    <category term="AtCoder" scheme="https://xxeray.github.io/categories/information-technology/solution/atcoder/"/>
+    
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder ABC177 F - I hate Shortest Path Problem 题解</title>
+    <link href="https://xxeray.github.io/post/atcoder-abc177-f/"/>
+    <id>https://xxeray.github.io/post/atcoder-abc177-f/</id>
+    <published>2021-02-10T13:04:26.000Z</published>
+    <updated>2021-09-19T13:28:45.720Z</updated>
+    
+    
+    <summary type="html">一道看似是迷宫的题目，但实际却不像看起来那么简单。</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/information-technology/solution/"/>
+    
+    <category term="AtCoder" scheme="https://xxeray.github.io/categories/information-technology/solution/atcoder/"/>
+    
+    
+    <category term="数据结构" scheme="https://xxeray.github.io/tags/data-structure/"/>
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-program/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KMP 详解</title>
+    <link href="https://xxeray.github.io/post/kmp/"/>
+    <id>https://xxeray.github.io/post/kmp/</id>
+    <published>2021-01-27T09:17:45.000Z</published>
+    <updated>2021-09-19T13:28:45.720Z</updated>
+    
+    
+    <summary type="html">KMP 可以在 $O(n)$ 的复杂度内算出有关字符串子串的问题，那么它是怎么做到这么优秀的复杂度的呢？</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/information-technology/knowledge-point/"/>
+    
+    
+    <category term="算法" scheme="https://xxeray.github.io/tags/algorithm/"/>
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树状数组详解</title>
+    <link href="https://xxeray.github.io/post/binary-indexed-tree/"/>
+    <id>https://xxeray.github.io/post/binary-indexed-tree/</id>
+    <published>2021-01-24T23:58:02.000Z</published>
+    <updated>2021-09-19T13:28:46.708Z</updated>
+    
+    
+    <summary type="html">树状数组是一种 $\log$ 级数据结构，那么它又是怎么做到快速区间修改查询的呢？</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/information-technology/knowledge-point/"/>
+    
+    
+    <category term="数据结构" scheme="https://xxeray.github.io/tags/data-structure/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Z 算法详解</title>
+    <link href="https://xxeray.github.io/post/z-algorithm/"/>
+    <id>https://xxeray.github.io/post/z-algorithm/</id>
+    <published>2021-01-23T10:58:06.000Z</published>
+    <updated>2021-09-19T13:28:46.698Z</updated>
+    
+    
+    <summary type="html">Z 算法又称拓展 KMP，是一种字符串算法。那么它有什么妙用呢？</summary>
+    
+    
+    
+    <category term="信息技术" scheme="https://xxeray.github.io/categories/information-technology/"/>
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/information-technology/knowledge-point/"/>
+    
+    
+    <category term="算法" scheme="https://xxeray.github.io/tags/algorithm/"/>
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+</feed>
