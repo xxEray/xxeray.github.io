@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://xxeray.gitlab.io
+url: https://xxeray.github.io
 root: /
 permalink: post/:urlname/
 permalink_defaults: ''
@@ -122,7 +122,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://gitlab.com/xxeray/xxeray.gitlab.io.git
+  repository: https://github.com/xxeray/xxeray.github.io.git
   branch: master
 
 # Search
