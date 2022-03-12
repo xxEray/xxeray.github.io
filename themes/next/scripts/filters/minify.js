@@ -63,6 +63,10 @@ hexo.extend.filter.register('after_generate', () => {
     hexo.route.remove('js/third-party/chat/chatra.js');
   }
 
+  if (!theme.tidio.enable) {
+    hexo.route.remove('js/third-party/chat/tidio.js');
+  }
+
   if (!theme.gitter.enable) {
     hexo.route.remove('js/third-party/chat/gitter.js');
   }
@@ -133,8 +137,12 @@ hexo.extend.filter.register('after_generate', () => {
   }
 
   // Others
-  if (!theme.nprogress.enable) {
-    hexo.route.remove('js/third-party/nprogress.js');
+  if (!theme.fancybox) {
+    hexo.route.remove('js/third-party/fancybox.js');
+  }
+
+  if (!theme.pace.enable) {
+    hexo.route.remove('js/third-party/pace.js');
   }
 
   if (!theme.quicklink.enable) {
