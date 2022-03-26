@@ -3,7 +3,6 @@ title: KMP 详解
 date: 2021-01-27 17:17:45
 description: KMP 可以在 $O(n)$ 的复杂度内算出有关字符串子串的问题，那么它是怎么做到这么优秀的复杂度的呢？
 tags:
-  - 算法
   - 字符串
 categories:
   - 信息技术
