@@ -133,7 +133,7 @@ $s$ 是主串，$t$ 是模式串。
 
 ### 复杂度
 
-发现两串比较时的指针永远不走回头路，所以复杂度为 $O(len(s) + len(t))$。
+容易发现 $j$ 的增量不超过 $n$ （见代码），所以它的减少量也不超过 $n$，所以总复杂度 $O(n)$。
 
 ## 代码实现
 
@@ -159,6 +159,39 @@ void kmp(const char *s, const char *t, vector<int> &ans) { // s, t 下标从 1 �
 
 ## 例题
 
-[洛谷 P3375](https://www.luogu.com.cn/problem/P3375)   
-[代码下载](P3375.cpp)
+{% note no-icon info [洛谷 P3375](https://www.luogu.com.cn/problem/P3375) %}
+```cpp
+#include <cstdio>
+#include <cstring>
+
+const int N = 1e6 + 5;
+
+char s[N], t[N];
+int nxt[N];
+
+int n, m;
+
+int main() {
+	std::scanf("%s%s", s + 1, t + 1);
+	n = std::strlen(s + 1), m = std::strlen(t + 1);
+	nxt[0] = -1;
+	for(int i = 1; i <= m; i++) {
+		int j = nxt[i - 1];
+		while(t[j + 1] != t[i] && j != -1) j = nxt[j];
+		nxt[i] = j + 1;
+	}
+	int j = 0;
+	for(int i = 1; i <= n; i++) {
+		while(j && t[j + 1] != s[i]) j = nxt[j];
+		if(t[j + 1] == s[i]) j++;
+		if(j == m) {
+			std::printf("%d\n", i - m + 1);
+			j = nxt[j];
+		}
+	}
+	for(int i = 1; i <= m; i++) std::printf("%d ", nxt[i]);
+	return 0;
+}
+```
+{% endnote %}
 
