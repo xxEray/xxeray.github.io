@@ -12,3 +12,4 @@ date: 2021-11-21 11:49:49
 - [游记目录](./competition)
 - [题解目录](./solution)
 - [知识点目录](./knowledge)
+- [杂项目录](./other)

@@ -13,3 +13,4 @@ toc:
 - [树状数组](/post/binary-indexed-tree)
 - [KMP](/post/kmp)
 - [Z 算法/拓展 KMP](/post/z-algorithm)
+- [FFT](/post/fast-fourier-transform)
