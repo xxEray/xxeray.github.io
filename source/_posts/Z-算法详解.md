@@ -1,6 +1,6 @@
 ---
 title: Z 算法/拓展 KMP 详解
-description: Z 算法又称拓展 KMP，是一种字符串算法。那么它有什么妙用呢？
+description: Z 算法又称拓展 KMP，两者的区别在哪儿呢？
 tags:
   - 字符串
 categories:
