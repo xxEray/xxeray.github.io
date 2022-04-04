@@ -14,7 +14,7 @@ date: 2022-04-04 16:12:09
 
 
 {% note no-icon info %}
-[本题连接](https://community.topcoder.com/stat?c=problem_statement&pm=12875)  
+[本题链接](https://community.topcoder.com/stat?c=problem_statement&pm=12875)  
 本题与 [TopCoder 12876 PalindromeMatrixDiv2](https://community.topcoder.com/stat?c=problem_statement&pm=12876) 是同一道题。
 {% endnote %}
 
