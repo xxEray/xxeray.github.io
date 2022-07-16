@@ -94,7 +94,7 @@ void z_algorithm(const char *s) { // 下标从 1 开始
 	for(int i = 2; i <= n; i++) {
 		if(i <= r) z[i] = std::min(z[i - l + 1], r - i + 1);
 		while(i + z[i] <= n && s[i + z[i]] == s[z[i] + 1]) z[i]++;
-		if(z[i] > r) l = i, r = i + z[i] - 1;
+		if(i + z[i] > r) l = i, r = i + z[i] - 1;
 	}
 }
 ```
@@ -102,7 +102,7 @@ void z_algorithm(const char *s) { // 下标从 1 开始
 
 ### 应用
 
-一道例题：
+### 例题 1
 
 > 给出两个字符串 s, t，求出所有的位置 x，满足 $s[x .. x + len(t) - 1] = t$。  
 > 其中 $len(s), len(t) \le 10^5$，s, t 仅包含大小写字母。
@@ -110,4 +110,77 @@ void z_algorithm(const char *s) { // 下标从 1 开始
 可以设一个字符 $r = t + \texttt{!} + s$，然后对 $r$ 跑一边 Z-Algorithm。  
 然后看 $r[len(t) + 2 .. len(r)]$ 中有多少个的 Z 函数等于 $len(t)$。
 
-也可以按照 Z 算法类似的方式直接算。
+也可以按照 Z 算法类似的方式直接算。（设 $e(i)$ 表示满足 $s[i .. i + x - 1] = t[1 .. x]$ 的最大的 $x$）
+
+{% note no-icon info 代码 %}
+```cpp
+int e[N];
+void exkmp(const char *s, const char *t) { // 下标从 1 开始
+	int l = 0, r = 0;
+	int n = strlen(s + 1);
+	for(int i = 2; i <= n; i++) {
+		if(i <= r) e[i] = std::min(z[i - l + 1], r - i + 1);
+		while(i + e[i] <= n && s[i + e[i]] == t[e[i] + 1]) e[i]++;
+		if(i + e[i] > r) l = i, r = i + e[i] - 1;
+	}
+}
+```
+{% endnote %}
+
+
+### 例题 2
+
+[洛谷 P5410](https://www.luogu.com.cn/problem/P5410)
+
+{% note no-icon info 代码 %}
+```cpp
+#include <cstdio>
+#include <algorithm>
+#include <cstring>
+
+typedef long long LL;
+
+const int N = 2e7 + 5;
+
+char a[N], b[N];
+
+int z[N];
+void z_algorithm(const char *s) { // 下标从 1 开始
+	int l = 0, r = 0;
+	int n = strlen(s + 1);
+	for(int i = 2; i <= n; i++) {
+		if(i <= r) z[i] = std::min(z[i - l + 1], r - i + 1);
+		while(i + z[i] <= n && s[i + z[i]] == s[z[i] + 1]) z[i]++;
+		if(i + z[i] > r) l = i, r = i + z[i] - 1;
+	}
+}
+
+int e[N];
+void exkmp(const char *s, const char *t) { // 下标从 1 开始
+	int l = 0, r = 0;
+	int n = strlen(s + 1);
+	for(int i = 2; i <= n; i++) {
+		if(i <= r) e[i] = std::min(z[i - l + 1], r - i + 1);
+		while(i + e[i] <= n && s[i + e[i]] == t[e[i] + 1]) e[i]++;
+		if(i + e[i] > r) l = i, r = i + e[i] - 1;
+	}
+}
+
+int main() {
+	scanf("%s%s", a + 1, b + 1);
+	int la = strlen(a + 1), lb = strlen(b + 1);
+	z_algorithm(b);
+	z[1] = lb;
+	LL ans = 0;
+	for(int i = 1; i <= lb; i++) ans ^= (LL)i * (z[i] + 1);
+	printf("%lld\n", ans);
+	exkmp(a, b);
+	for(int i = 1; i <= lb; i++) if(a[i] == b[i]) e[1] = i; else break;
+	ans = 0;
+	for(int i = 1; i <= la; i++) ans ^= (LL)(i) * (e[i] + 1);
+	printf("%lld\n", ans);
+	return 0;
+}
+```
+{% endnote %}
+
