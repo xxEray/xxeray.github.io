@@ -14,13 +14,13 @@ mathjax: true
 urlname: luogu-3953
 ---
 
+**目前这个做法没有被任何数据 hack 掉，如果有请跟我说哦。**（左边「关于」页面有我的各种 ID，你也可以在下面评论给我留言）
+
 以下都是这道题：
 
 [洛谷 P3953](https://www.luogu.com.cn/problem/P3953)  
 [LOJ 2316](https://loj.ac/p/2316)  
 [UOJ 331](https://uoj.ac/problem/331)
-
-**目前这个做法没有被任何数据 hack 掉，如果有请跟我说哦。**（左边「关于」页面有我的各种 ID，你也可以在下面评论给我留言）
 
 ## 题意
 
