@@ -8,7 +8,13 @@ comments: false
 
 镜像网站：镜像网站：<https://xxeray.github.io>, <https://xxeray.gitlab.io>
 
-邮箱：[`xxeray@foxmail.com`](mailto:xxeray@foxmail.com)
+- 邮箱：[`xxeray@foxmail.com`](mailto:xxeray@foxmail.com)
+- 洛谷: [Eray](https://www.luogu.com.cn/user/192806)
+- 博客园: [XxEray](https://www.cnblogs.com/xxeray/)
+- CodeForces: [E-ray](https://codeforces.com/profile/E-ray)
+- AtCoder: [XxEray](https://atcoder.jp/users/XxEray)
+- LOJ: [Eray](https://loj.ac/u/Eray)
+- UOJ: [Eray](https://uoj.ac/user/profile/Eray)
 
 > 唯一重要的是永恒的现在。 ——毛姆
 
