@@ -17,7 +17,10 @@ hexo.extend.helper.register('next_inject', function(point) {
     .join('');
 });
 
-hexo.extend.helper.register('next_js', function(file, pjax = false) {
+hexo.extend.helper.register('next_js', function(file, {
+  pjax = false,
+  module = false
+} = {}) {
   const { next_version } = this;
   const { internal, custom_cdn_url } = this.theme.vendors;
   const links = getVendors({
@@ -29,7 +32,7 @@ hexo.extend.helper.register('next_js', function(file, pjax = false) {
     custom  : custom_cdn_url
   });
   const src = links[internal] || links.local;
-  return `<script ${pjax ? 'data-pjax ' : ''}src="${src}"></script>`;
+  return `<script ${pjax ? 'data-pjax ' : ''}${module ? 'type="module" ' : ''}src="${src}"></script>`;
 });
 
 hexo.extend.helper.register('next_vendors', function(name) {
@@ -55,11 +58,11 @@ hexo.extend.helper.register('next_pre', function() {
   const { enable, host } = this.theme.font;
   const { internal, plugins, custom_cdn_url } = this.theme.vendors;
   const links = {
-    local   : parse(this.theme.js || '').hostname,
+    local   : this.theme.js && parse(this.theme.js).hostname ? parse(this.theme.js).protocol + '//' + parse(this.theme.js).hostname : '',
     jsdelivr: 'https://cdn.jsdelivr.net',
     unpkg   : 'https://unpkg.com',
     cdnjs   : 'https://cdnjs.cloudflare.com',
-    custom  : parse(custom_cdn_url || '').hostname
+    custom  : custom_cdn_url && parse(custom_cdn_url).hostname ? parse(custom_cdn_url).protocol + '//' + parse(custom_cdn_url).hostname : ''
   };
   const h = enable ? host || 'https://fonts.googleapis.com' : '';
   const i = links[internal];
