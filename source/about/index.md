@@ -6,7 +6,7 @@ comments: false
 技术向博客。  
 主要记录 OI 中的算法、题解、经验交流。
 
-镜像网站：镜像网站：<https://xxeray.github.io>, <https://xxeray.gitlab.io>
+镜像网站：<https://xxeray.github.io>, <https://xxeray.gitlab.io>
 
 - 邮箱：[`xxeray@foxmail.com`](mailto:xxeray@foxmail.com)
 - 洛谷: [Eray](https://www.luogu.com.cn/user/192806)
