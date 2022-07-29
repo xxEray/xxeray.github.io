@@ -81,7 +81,6 @@ creative_commons:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  list: /list/ || fa fa-list-ul
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags

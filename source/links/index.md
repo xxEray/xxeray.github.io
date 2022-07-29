@@ -8,7 +8,7 @@ comments: false
 
 **排名不分先后，刷新自动重新排序。**
 
-> 加友链请到[友链专区](/guestbook/links)，信息有更改也可以在[友链专区](/guestbook/links)留言
+> 加友链请到[友链专区](/guestbook/links)，信息有更改也可以在那里留言
 
 {% endnote %}
 
