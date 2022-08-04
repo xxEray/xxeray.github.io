@@ -17,9 +17,9 @@ urlname: topcoder-1684
 
 [原题链接](https://community.topcoder.com/stat?c=problem_statement&pm=1684)
 
-网上关于这道题的题解不多（我只找到了[这篇](https://www.cnblogs.com/yzxverygood/p/9360251.html)，而且好像都被下面这组数据卡掉了），而且目前 VJudge 上很少有小于 3000ms 的代码，这是我写这篇题解的原因。
+网上关于这道题的题解不多（我只找到了[这篇](https://www.cnblogs.com/yzxverygood/p/9360251.html)，而且好像都被下面这组数据卡掉了），而且目前 VJudge 上很少有小于 1000ms 的代码，这是我写这篇题解的原因。
 
-我这份代码暂时还 **没被任何数据卡掉**，而且目前是 VJudge 上的 **最优解**（676 ms，链接在[这里](https://vjudge.net/solution/37566473)）
+我这份代码暂时还 **没被任何数据卡掉**，跑了 676 ms，链接在[这里](https://vjudge.net/solution/37566473)。
 
 {% note no-icon info 数据 %}
 
