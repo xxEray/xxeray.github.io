@@ -69,20 +69,22 @@ index_generator:
   per_page: 10
   order_by: -date
 
-
 # Category & Tag
 default_category: 未分类
 category_map:
   未分类: no-category
   信息技术: information-technology
   知识点: knowledge-point
+  做题记录: diary
   题解: solution
   杂项: other
+  洛谷: luogu
   AtCoder: atcoder
   CodeForces: codeforces
   Ural: ural
   CatOJ: catoj
   TopCoder: topcoder
+  UVA: uva
 tag_map:
   算法: algorithm
   数据结构: data-structure
@@ -92,6 +94,12 @@ tag_map:
   思维: thinking
   数论: number-theory
   枚举: enumerate
+  图论: graph-theory
+  最短路: shortest-path
+  拓扑排序: topological-sorting
+  搜索: searching
+  剪枝: pruning
+  日常: daily
   杂项: other
 
 # Metadata elements
