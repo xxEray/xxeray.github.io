@@ -1,6 +1,8 @@
 ---
 title: 关于
 comments: false
+toc:
+  enable: false
 ---
 
 技术向博客。  
@@ -15,6 +17,14 @@ comments: false
 - AtCoder: [XxEray](https://atcoder.jp/users/XxEray)
 - LOJ: [Eray](https://loj.ac/u/Eray)
 - UOJ: [Eray](https://uoj.ac/user/profile/Eray)
+
+更新计划：
+
+- 模拟退火
+- 三门问题
+- 网络流
+- 概率
+- SAM
 
 > 唯一重要的是永恒的现在。 ——毛姆
 
