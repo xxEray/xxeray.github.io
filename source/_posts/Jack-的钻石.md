@@ -5,7 +5,6 @@ description: 看似迷惑的题目，其实也有巧妙的解法！
 tags:
   - 思维
 categories:
-  - 信息技术
   - 题解
 mathjax: true
 urlname: jacks-diamond

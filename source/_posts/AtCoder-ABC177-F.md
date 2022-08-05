@@ -5,7 +5,6 @@ tags:
   - 数据结构
   - 动态规划
 categories:
-  - 信息技术
   - 题解
   - AtCoder
 mathjax: true

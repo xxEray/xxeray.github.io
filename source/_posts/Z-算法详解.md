@@ -4,7 +4,6 @@ description: Z 算法又称拓展 KMP，两者的区别在哪儿呢？
 tags:
   - 字符串
 categories:
-  - 信息技术
   - 知识点
 mathjax: true
 urlname: z-algorithm

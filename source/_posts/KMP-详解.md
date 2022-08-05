@@ -5,7 +5,6 @@ description: 字符串子串问题的极致复杂度！
 tags:
   - 字符串
 categories:
-  - 信息技术
   - 知识点
 mathjax: true
 urlname: kmp

@@ -5,7 +5,6 @@ description: 博弈论的题目一定就是 DP 吗？
 tags:
   - 思维
 categories:
-  - 信息技术
   - 题解
   - AtCoder
 mathjax: true
