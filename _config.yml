@@ -73,7 +73,6 @@ index_generator:
 default_category: 未分类
 category_map:
   未分类: no-category
-  信息技术: information-technology
   知识点: knowledge-point
   做题记录: diary
   题解: solution
