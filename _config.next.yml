@@ -201,7 +201,7 @@ language_switcher: false
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
-  #since: 2020
+  since: 2021
 
   # Icon between year and copyright info.
   icon:
@@ -216,7 +216,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: false
+  powered: true
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
