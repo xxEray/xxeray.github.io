@@ -17,6 +17,7 @@ toc:
 - AtCoder: [XxEray](https://atcoder.jp/users/XxEray)
 - LOJ: [Eray](https://loj.ac/u/Eray)
 - UOJ: [Eray](https://uoj.ac/user/profile/Eray)
+- Bilibili: [Eray](https://space.bilibili.com/1533079062)
 
 > 语言属于时间，静默属于永恒。 ——托马斯·卡莱尔
 
