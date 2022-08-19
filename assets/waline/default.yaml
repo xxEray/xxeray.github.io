@@ -22,36 +22,37 @@ waline:
   pageview: false
 
   # Custom locales
-  # locale:
-  #   placeholder: Welcome to comment # Comment box placeholder
+  locale:
+    placeholder: 写下你的评论…
+    sofa: 还没有评论~
 
   # Custom emoji
-  # emoji:
-  #   - https://unpkg.com/@waline/emojis@1.0.1/weibo
-  #   - https://unpkg.com/@waline/emojis@1.0.1/alus
-  #   - https://unpkg.com/@waline/emojis@1.0.1/bilibili
-  #   - https://unpkg.com/@waline/emojis@1.0.1/qq
-  #   - https://unpkg.com/@waline/emojis@1.0.1/tieba
-  #   - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji
+  emoji:
+    - https://unpkg.com/@waline/emojis@1.0.1/weibo
+    - https://unpkg.com/@waline/emojis@1.0.1/alus
+    - https://unpkg.com/@waline/emojis@1.0.1/bilibili
+    - https://unpkg.com/@waline/emojis@1.0.1/qq
+    - https://unpkg.com/@waline/emojis@1.0.1/tieba
+    - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji
 
   # Comment infomation, valid meta are nick, mail and link
-  # meta:
-  #   - nick
-  #   - mail
-  #   - link
+  meta:
+    - nick
+    - mail
+    - link
 
   # Set required meta field, e.g.: [nick] | [nick, mail]
-  # requiredMeta:
-  #   - nick
+  requiredMeta:
+    - nick
 
   # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
-  # lang: zh-CN
+  lang: zh-CN
 
   # Word limit, no limit when setting to 0
-  # wordLimit: 0
+  wordLimit: 0
 
   # Whether enable login, can choose from 'enable', 'disable' and 'force'
-  # login: enable
+  login: enable
 
   # comment per page
-  # pageSize: 10
+  pageSize: 10
