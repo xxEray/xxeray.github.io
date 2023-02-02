@@ -9,12 +9,18 @@
 		"//": "HanYuLe",
 		"name": "保加利亚小木屋",
 		"site": "https://hylwxqwq.github.io/",
-		"avatar": "/images/links-avatar/HanYuLe.jpg"
+		"avatar": "https://hylwxqwq.github.io/img/logo.jpg"
 	},
 	{
 		"//": "MaoZhouXiang",
 		"name": "幻影彭的彩虹",
 		"site": "https://huanyp.cn/",
 		"avatar": "https://huanyp.cn/images/avatar.jpg"
+	},
+	{
+		"//": "TangZiQi",
+		"name": "Fat Old Eight's Blog",
+		"site": "https://fat-old-eight.github.io/",
+		"avatar": "/images/links-avatar/TangZiQi.jpeg"
 	}
 ]

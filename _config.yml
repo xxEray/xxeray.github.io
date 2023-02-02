@@ -92,8 +92,11 @@ tag_map:
   动态规划: dynamic-programming
   矩阵: matrix
   思维: thinking
+  数学: mathematics
   数论: number-theory
   枚举: enumerate
+  概率: probability
+  期望: expectation
   图论: graph-theory
   最短路: shortest-path
   拓扑排序: topological-sorting
