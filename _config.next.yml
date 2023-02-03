@@ -643,7 +643,7 @@ waline:
   enable: true
 
   # Waline server address url, you should set this to your own link
-  serverURL: https://eray-comment.vercel.app
+  serverURL: https://eray-comment.deta.dev
 
   # Waline library CDN url, you can set this to your preferred CDN
   libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js
