@@ -1,0 +1,10 @@
+{%- if page.password %}
+<script src="/js/md5.js"></script>
+<script>
+	(function() {
+		var s = '请输入密码：';
+		if('{{ page.password_message }}') s = '请根据密码提示输入密码：\n{{ page.password_message }}';
+		while(md5(prompt(s, '')) !== '{{ page.password }}') alert('密码错误，请重新输入');
+	})();
+</script>
+{%- endif %}
