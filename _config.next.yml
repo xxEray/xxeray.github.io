@@ -643,7 +643,7 @@ waline:
   enable: true
 
   # Waline server address url, you should set this to your own link
-  serverURL: https://eray-comment.up.railway.app
+  serverURL: https://waline-1-g2268155.deta.app/
 
   # Waline library CDN url, you can set this to your preferred CDN
   libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js
