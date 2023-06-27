@@ -40,7 +40,7 @@ $$
 先把移项过后的式子写出来：
 
 $$
-f(i)=\frac{1+\sum_{1\le j\le n}^{f(j)<f(i)} f(j)p_{i,j}\prod_{1\le k\le n}^{f(k)<f(j)}(1-p_{i,k})}{1-\sum_{1\le j\le n}^{f(j)<f(i)}(1-p_{i,j})}
+f(i)=\frac{1+\sum_{1\le j\le n}^{f(j)<f(i)} f(j)p_{i,j}\prod_{1\le k\le n}^{f(k)<f(j)}(1-p_{i,k})}{1-\prod_{1\le j\le n}^{f(j)<f(i)}(1-p_{i,j})}
 $$
 
 现在考虑怎么找出 DAG 的形态。  
