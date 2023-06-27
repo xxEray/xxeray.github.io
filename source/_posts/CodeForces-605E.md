@@ -100,4 +100,3 @@ int main() {
 <https://codeforces.com/blog/entry/22019>
 
 {% endnote %}
-
