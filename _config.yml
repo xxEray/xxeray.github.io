@@ -79,6 +79,7 @@ category_map:
   游记: travel
   杂项: other
   洛谷: luogu
+  模拟赛: contest
   AtCoder: atcoder
   CodeForces: codeforces
   Ural: ural
