@@ -84,6 +84,7 @@ category_map:
   CodeForces: codeforces
   Ural: ural
   CatOJ: catoj
+  LibreOJ: loj
   TopCoder: topcoder
   UVA: uva
 tag_map:
@@ -99,6 +100,7 @@ tag_map:
   概率: probability
   期望: expectation
   图论: graph-theory
+  网络流: flow
   最短路: shortest-path
   拓扑排序: topological-sorting
   搜索: searching
