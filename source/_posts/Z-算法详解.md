@@ -69,6 +69,7 @@ Z 算法（Z-Algorithm，又叫拓展 KMP 或 exKMP）是一种字符串匹配�
 图中 $zr - i + 1$ 应该等于蓝色，但是实际上 $z(i)$ 应该是蓝色+橙色，所以这种情况我们直接在 $zr - i + 1$ 的基础上暴力更新 $z(i)$，并更新 $zl, zr$。
 
 {% note no-icon info 无关紧要的证明 %}
+
 其实 $z(i')$ 不可能大于 $zr - i + 1$，因为如果大于，那么就会变成下面这样：
 
 ![证明](Z-算法详解/证明.png)
@@ -84,6 +85,7 @@ Z 算法（Z-Algorithm，又叫拓展 KMP 或 exKMP）是一种字符串匹配�
 ### 代码
 
 {% note no-icon info 代码 %}
+
 ```cpp
 int z[N];
 void z_algorithm(const char *s) { // 下标从 1 开始
@@ -96,6 +98,7 @@ void z_algorithm(const char *s) { // 下标从 1 开始
 	}
 }
 ```
+
 {% endnote %}
 
 ### 应用
@@ -111,6 +114,7 @@ void z_algorithm(const char *s) { // 下标从 1 开始
 也可以按照 Z 算法类似的方式直接算。（设 $e(i)$ 表示满足 $s[i .. i + x - 1] = t[1 .. x]$ 的最大的 $x$）
 
 {% note no-icon info 代码 %}
+
 ```cpp
 int e[N];
 void exkmp(const char *s, const char *t) { // 下标从 1 开始
@@ -123,6 +127,7 @@ void exkmp(const char *s, const char *t) { // 下标从 1 开始
 	}
 }
 ```
+
 {% endnote %}
 
 
@@ -131,6 +136,7 @@ void exkmp(const char *s, const char *t) { // 下标从 1 开始
 [洛谷 P5410](https://www.luogu.com.cn/problem/P5410)
 
 {% note no-icon info 代码 %}
+
 ```cpp
 #include <cstdio>
 #include <algorithm>
@@ -180,5 +186,6 @@ int main() {
 	return 0;
 }
 ```
+
 {% endnote %}
 
