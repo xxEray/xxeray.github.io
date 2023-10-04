@@ -100,6 +100,7 @@ tag_map:
   概率: probability
   期望: expectation
   图论: graph-theory
+  组合: combinatorics
   网络流: flow
   最短路: shortest-path
   拓扑排序: topological-sorting
