@@ -104,6 +104,7 @@ tag_map:
   网络流: flow
   最短路: shortest-path
   拓扑排序: topological-sorting
+  生成函数: generating-function
   搜索: searching
   剪枝: pruning
   日常: daily
