@@ -441,23 +441,23 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Microsoft Yahei
+    family: Noto Sans SC
     size: 0.85
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family: Microsoft Yahei
+    family: Noto Sans SC
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family: Microsoft Yahei
+    family: Noto Sans SC
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family: Microsoft Yahei
+    family: Noto Sans SC
 
   # Font settings for <code> and code blocks.
   codes:
