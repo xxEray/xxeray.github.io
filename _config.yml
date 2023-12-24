@@ -33,6 +33,7 @@ skip_render:
   - 404.html
   - google76eed2459195731d.html
   - baidu_verify_code-JEAcuSQxO0.html
+  - images/waline-emojis/**/*.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -144,7 +145,7 @@ theme: next
 deploy:
   type: git
   repository: https://github.com/xxeray/xxeray.github.io.git
-  branch: master
+  branch: source
 
 # Search
 search:

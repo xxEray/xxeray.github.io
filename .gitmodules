@@ -1,0 +1,3 @@
+[submodule "source/images/waline-emojis"]
+	path = source/images/waline-emojis
+	url = https://github.com/walinejs/emojis.git

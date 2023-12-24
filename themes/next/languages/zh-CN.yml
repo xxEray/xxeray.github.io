@@ -14,12 +14,13 @@ menu:
   search: 搜索
   schedule: 日程表
   sitemap: 站点地图
-  links: 友链
+  friends: 友链
   guestbook: 留言板
   commonweal: 公益 404
 sidebar:
   overview: 站点概览
   toc: 文章目录
+  links: 链接
 post:
   posted: 发表于
   edited: 更新于
