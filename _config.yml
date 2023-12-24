@@ -145,7 +145,7 @@ theme: next
 deploy:
   type: git
   repository: https://github.com/xxeray/xxeray.github.io.git
-  branch: source
+  branch: master
 
 # Search
 search:
