@@ -84,7 +84,7 @@ $$
 于是这个问题就解决了。
 
 然后考虑 $j$ 为任意值怎么做。  
-由于 $\omega_m^{ij} = \omega_m^{ij\bmod m}$，所以我们考虑多重集 $\{ij\bmod m\}_{0\le i < m} = \{0, j \bmod m, 2j \bmod m, \cdots, (m - 1)j \bmod m\}$ 是长什么样子的。简单手玩可以发现 $\gcd(j, m) \mid (ij \bmod m)$，并且每个 $\gcd(j, m)$ （$[0, m)$ 以内）的倍数刚好出现 $\gcd(j, m)$ 次。这个跟数论相关，可以证明的，这里就不详细展开了。然后就比较简单了。考虑推一下式子：（令 $g=\gcd(j, m)$）
+由于 $\omega_m^{ij} = \omega_m^{ij\bmod m}$，所以我们考虑多重集 $\{ij\bmod m\}_{0\le i < m} = \{0, j \bmod m, 2j \bmod m, \cdots, (m - 1)j \bmod m\}$ 是长什么样子的。简单手玩可以发现 $\gcd(j, m) \mid (ij \bmod m)$，并且每个 $\gcd(j, m)$ （在 $[0, m)$ 以内的）倍数刚好出现 $\gcd(j, m)$ 次。这个跟数论相关，可以证明的，这里就不详细展开了。然后就比较简单了。考虑推一下式子：（令 $g=\gcd(j, m)$）
 
 $$
 \begin{aligned}
