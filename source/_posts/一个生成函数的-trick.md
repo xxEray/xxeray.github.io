@@ -14,7 +14,6 @@ password_message: 密码：cw 的 OJ 的域名（11 个字符）
 date: 2024-01-17 17:16:12
 ---
 
-
 ## 题意
 
 原题是 [这个](https://local.cwoi.com.cn:8443/contest/C0462/problem/B)。
