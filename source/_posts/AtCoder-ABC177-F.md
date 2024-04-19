@@ -1,5 +1,5 @@
 ---
-title: AtCoder ABC177 F - I hate Shortest Path Problem 题解
+title: AtCoder ABC177F I hate Shortest Path Problem 题解
 description: 一道看似是迷宫的题目，但实际却不像看起来那么简单。
 tags:
   - 数据结构

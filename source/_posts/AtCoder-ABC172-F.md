@@ -1,5 +1,5 @@
 ---
-title: AtCoder ABC172 F - Unfair Nim 题解
+title: AtCoder ABC172F Unfair Nim 题解
 date: 2021-04-03 09:04:50
 description: 博弈论的题目一定就是 DP 吗？
 tags:
