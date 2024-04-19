@@ -13,6 +13,8 @@ urlname: atcoder-arc175-f
 
 ## 题意
 
+[传送门](https://atcoder.jp/contests/arc175/tasks/arc175_f)
+
 给出由 $n$ 个仅含小写英文字母的字符串组成的序列，你可以做下列两种操作：
 
 1. 选择一个小写英文字母，并在序列中 **每个** 字符串末尾添加这个字符；
