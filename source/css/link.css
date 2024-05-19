@@ -112,6 +112,10 @@
   white-space: normal
 }
 
+.card .card-header .card-header-inner {
+  max-height: 32px;
+}
+
 .card .card-header a {
   font-style: normal;
   color: #2bbc8a;
