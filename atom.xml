@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eray&#39;s Blog</title>
+  
+  <subtitle>不管怎么样，明天又是新的一天。</subtitle>
+  <link href="https://xxeray.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xxeray.github.io/"/>
+  <updated>2024-06-20T02:37:32.157Z</updated>
+  <id>https://xxeray.github.io/</id>
+  
+  <author>
+    <name>Eray</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个生成函数的 trick</title>
+    <link href="https://xxeray.github.io/post/a-trick-for-generating-function/"/>
+    <id>https://xxeray.github.io/post/a-trick-for-generating-function/</id>
+    <published>2024-04-24T13:38:06.000Z</published>
+    <updated>2024-06-20T02:37:32.157Z</updated>
+    
+    
+    <summary type="html">很妙的做法。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="CatOJ" scheme="https://xxeray.github.io/categories/solution/catoj/"/>
+    
+    
+    <category term="数学" scheme="https://xxeray.github.io/tags/mathematics/"/>
+    
+    <category term="生成函数" scheme="https://xxeray.github.io/tags/generating-function/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder ARC175F Append Same Characters 题解</title>
+    <link href="https://xxeray.github.io/post/atcoder-arc175-f/"/>
+    <id>https://xxeray.github.io/post/atcoder-arc175-f/</id>
+    <published>2024-04-18T12:23:26.000Z</published>
+    <updated>2024-06-20T02:37:32.152Z</updated>
+    
+    
+    <summary type="html">Border 理论相关的字符串好题！</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="AtCoder" scheme="https://xxeray.github.io/categories/solution/atcoder/"/>
+    
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生成函数讲稿</title>
+    <link href="https://xxeray.github.io/post/generating-function-lecture-notes/"/>
+    <id>https://xxeray.github.io/post/generating-function-lecture-notes/</id>
+    <published>2023-12-05T00:35:42.000Z</published>
+    <updated>2024-06-20T02:37:32.164Z</updated>
+    
+    
+    <summary type="html">长文预警！</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="生成函数" scheme="https://xxeray.github.io/tags/generating-function/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeForces 814E An unavoidable detour for home 题解</title>
+    <link href="https://xxeray.github.io/post/codeforces-814e/"/>
+    <id>https://xxeray.github.io/post/codeforces-814e/</id>
+    <published>2023-10-04T12:19:29.000Z</published>
+    <updated>2024-06-20T02:37:32.153Z</updated>
+    
+    
+    <summary type="html">即巧妙又麻烦的组合计数。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="CodeForces" scheme="https://xxeray.github.io/categories/solution/codeforces/"/>
+    
+    
+    <category term="数学" scheme="https://xxeray.github.io/tags/mathematics/"/>
+    
+    <category term="组合" scheme="https://xxeray.github.io/tags/combinatorics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LOJ 6479 [ICPC World Finals 2017] 小小水管工 Son of Pipe Stream 题解</title>
+    <link href="https://xxeray.github.io/post/loj-6479/"/>
+    <id>https://xxeray.github.io/post/loj-6479/</id>
+    <published>2023-09-27T13:34:54.000Z</published>
+    <updated>2024-06-20T02:37:32.155Z</updated>
+    
+    
+    <summary type="html">很有启发性的网络流题。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="LibreOJ" scheme="https://xxeray.github.io/categories/solution/loj/"/>
+    
+    
+    <category term="数学" scheme="https://xxeray.github.io/tags/mathematics/"/>
+    
+    <category term="图论" scheme="https://xxeray.github.io/tags/graph-theory/"/>
+    
+    <category term="网络流" scheme="https://xxeray.github.io/tags/flow/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeForces 605E Intergalaxy Trips 题解</title>
+    <link href="https://xxeray.github.io/post/codeforces-605e/"/>
+    <id>https://xxeray.github.io/post/codeforces-605e/</id>
+    <published>2023-06-27T00:03:29.000Z</published>
+    <updated>2024-06-20T02:37:32.152Z</updated>
+    
+    
+    <summary type="html">一道期望好题</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="CodeForces" scheme="https://xxeray.github.io/categories/solution/codeforces/"/>
+    
+    
+    <category term="概率" scheme="https://xxeray.github.io/tags/probability/"/>
+    
+    <category term="期望" scheme="https://xxeray.github.io/tags/expectation/"/>
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+    <category term="图论" scheme="https://xxeray.github.io/tags/graph-theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSP-S2022 题解</title>
+    <link href="https://xxeray.github.io/post/csp-s-2022-solution/"/>
+    <id>https://xxeray.github.io/post/csp-s-2022-solution/</id>
+    <published>2022-11-05T14:25:35.000Z</published>
+    <updated>2024-06-20T02:37:32.152Z</updated>
+    
+    
+    <summary type="html">CSP-S 题解啦~ 感觉比去年有进步，但是跟其他人一比较却发现跟退步了一样。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    
+    <category term="数学" scheme="https://xxeray.github.io/tags/mathematics/"/>
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+    <category term="数据结构" scheme="https://xxeray.github.io/tags/data-structure/"/>
+    
+    <category term="图论" scheme="https://xxeray.github.io/tags/graph-theory/"/>
+    
+    <category term="最短路" scheme="https://xxeray.github.io/tags/shortest-path/"/>
+    
+    <category term="矩阵" scheme="https://xxeray.github.io/tags/matrix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSP-S2022 游记</title>
+    <link href="https://xxeray.github.io/post/csp-s-2022-travel/"/>
+    <id>https://xxeray.github.io/post/csp-s-2022-travel/</id>
+    <published>2022-10-29T13:38:48.000Z</published>
+    <updated>2024-06-20T02:37:32.152Z</updated>
+    
+    
+    <summary type="html">挂大分，被暴打了。</summary>
+    
+    
+    
+    <category term="游记" scheme="https://xxeray.github.io/categories/travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2022.10.18 模拟赛题解</title>
+    <link href="https://xxeray.github.io/post/2022-10-18-solution/"/>
+    <id>https://xxeray.github.io/post/2022-10-18-solution/</id>
+    <published>2022-10-29T13:36:51.000Z</published>
+    <updated>2024-06-20T02:37:32.151Z</updated>
+    
+    
+    <summary type="html">神仙场，被打爆惹。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="模拟赛" scheme="https://xxeray.github.io/categories/solution/contest/"/>
+    
+    
+    <category term="数学" scheme="https://xxeray.github.io/tags/mathematics/"/>
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TopCoder 1684 Posters 题解</title>
+    <link href="https://xxeray.github.io/post/topcoder-1684/"/>
+    <id>https://xxeray.github.io/post/topcoder-1684/</id>
+    <published>2022-08-03T14:38:04.000Z</published>
+    <updated>2024-06-20T02:37:32.156Z</updated>
+    
+    
+    <summary type="html">大力爆搜题，但是有很多优化和剪枝技巧。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="TopCoder" scheme="https://xxeray.github.io/categories/solution/topcoder/"/>
+    
+    
+    <category term="枚举" scheme="https://xxeray.github.io/tags/enumerate/"/>
+    
+    <category term="搜索" scheme="https://xxeray.github.io/tags/searching/"/>
+    
+    <category term="剪枝" scheme="https://xxeray.github.io/tags/pruning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>洛谷 P3953 [NOIP2017 提高组] 逛公园 题解</title>
+    <link href="https://xxeray.github.io/post/luogu-3953/"/>
+    <id>https://xxeray.github.io/post/luogu-3953/</id>
+    <published>2022-07-18T03:25:45.000Z</published>
+    <updated>2024-06-20T02:37:32.157Z</updated>
+    
+    
+    <summary type="html">做法复杂且容易假的图论题。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="洛谷" scheme="https://xxeray.github.io/categories/solution/luogu/"/>
+    
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+    <category term="图论" scheme="https://xxeray.github.io/tags/graph-theory/"/>
+    
+    <category term="最短路" scheme="https://xxeray.github.io/tags/shortest-path/"/>
+    
+    <category term="拓扑排序" scheme="https://xxeray.github.io/tags/topological-sorting/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVA 1490 Let the light guide us 题解</title>
+    <link href="https://xxeray.github.io/post/uva-1490/"/>
+    <id>https://xxeray.github.io/post/uva-1490/</id>
+    <published>2022-07-12T03:14:34.000Z</published>
+    <updated>2024-06-20T02:37:32.156Z</updated>
+    
+    
+    <summary type="html">巧妙的 DP 优化</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="UVA" scheme="https://xxeray.github.io/categories/solution/uva/"/>
+    
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TopCoder 12792 BitwiseAnd 题解</title>
+    <link href="https://xxeray.github.io/post/topcoder-12792/"/>
+    <id>https://xxeray.github.io/post/topcoder-12792/</id>
+    <published>2022-04-04T14:07:46.000Z</published>
+    <updated>2024-06-20T02:37:32.156Z</updated>
+    
+    
+    <summary type="html">比较简单的思维题。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="TopCoder" scheme="https://xxeray.github.io/categories/solution/topcoder/"/>
+    
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TopCoder 12875 PalindromeMatrix 题解</title>
+    <link href="https://xxeray.github.io/post/topcoder-12875/"/>
+    <id>https://xxeray.github.io/post/topcoder-12875/</id>
+    <published>2022-04-04T08:12:09.000Z</published>
+    <updated>2024-06-20T02:37:32.156Z</updated>
+    
+    
+    <summary type="html">一道中等难度的思维题，想通了就很简单。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="TopCoder" scheme="https://xxeray.github.io/categories/solution/topcoder/"/>
+    
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+    <category term="枚举" scheme="https://xxeray.github.io/tags/enumerate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数论初识</title>
+    <link href="https://xxeray.github.io/post/number-theory-initial/"/>
+    <id>https://xxeray.github.io/post/number-theory-initial/</id>
+    <published>2022-04-03T03:24:24.000Z</published>
+    <updated>2024-06-20T02:37:32.163Z</updated>
+    
+    
+    <summary type="html">数论研究数与数的关系，是一个奇妙的分支。（入门版，包含基础知识）</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="数论" scheme="https://xxeray.github.io/tags/number-theory/"/>
+    
+    <category term="数学" scheme="https://xxeray.github.io/tags/mathematics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速傅里叶变换（FFT）及快速数论变换（NTT）详解</title>
+    <link href="https://xxeray.github.io/post/fast-fourier-transform/"/>
+    <id>https://xxeray.github.io/post/fast-fourier-transform/</id>
+    <published>2022-03-20T05:29:47.000Z</published>
+    <updated>2024-06-20T02:37:32.162Z</updated>
+    
+    
+    <summary type="html">换一条看起来更长的路走，有时会带来意想不到的惊喜！</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="数论" scheme="https://xxeray.github.io/tags/number-theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>后缀数组详解</title>
+    <link href="https://xxeray.github.io/post/suffix-array/"/>
+    <id>https://xxeray.github.io/post/suffix-array/</id>
+    <published>2021-08-10T00:17:24.000Z</published>
+    <updated>2024-06-20T02:37:32.157Z</updated>
+    
+    
+    <summary type="html">后缀数组是一种可以巧妙转化问题的字符串算法。</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「Jack 的钻石」题解</title>
+    <link href="https://xxeray.github.io/post/jacks-diamond/"/>
+    <id>https://xxeray.github.io/post/jacks-diamond/</id>
+    <published>2021-07-14T14:14:15.000Z</published>
+    <updated>2024-06-20T02:37:32.153Z</updated>
+    
+    
+    <summary type="html">看似迷惑的题目，其实也有巧妙的解法！</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ural 1013 K-based Numbers. Version 3 题解</title>
+    <link href="https://xxeray.github.io/post/ural-1013/"/>
+    <id>https://xxeray.github.io/post/ural-1013/</id>
+    <published>2021-05-01T02:49:21.000Z</published>
+    <updated>2024-06-20T02:37:32.156Z</updated>
+    
+    
+    <summary type="html">DP 的复杂度瓶颈真的就是线性吗？</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="Ural" scheme="https://xxeray.github.io/categories/solution/ural/"/>
+    
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+    <category term="矩阵" scheme="https://xxeray.github.io/tags/matrix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder ABC172F Unfair Nim 题解</title>
+    <link href="https://xxeray.github.io/post/atcoder-abc172-f/"/>
+    <id>https://xxeray.github.io/post/atcoder-abc172-f/</id>
+    <published>2021-04-03T01:04:50.000Z</published>
+    <updated>2024-06-20T02:37:32.151Z</updated>
+    
+    
+    <summary type="html">博弈论的题目一定就是 DP 吗？</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="AtCoder" scheme="https://xxeray.github.io/categories/solution/atcoder/"/>
+    
+    
+    <category term="思维" scheme="https://xxeray.github.io/tags/thinking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder ABC177F I hate Shortest Path Problem 题解</title>
+    <link href="https://xxeray.github.io/post/atcoder-abc177-f/"/>
+    <id>https://xxeray.github.io/post/atcoder-abc177-f/</id>
+    <published>2021-02-10T13:04:26.000Z</published>
+    <updated>2024-06-20T02:37:32.152Z</updated>
+    
+    
+    <summary type="html">一道看似是迷宫的题目，但实际却不像看起来那么简单。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://xxeray.github.io/categories/solution/"/>
+    
+    <category term="AtCoder" scheme="https://xxeray.github.io/categories/solution/atcoder/"/>
+    
+    
+    <category term="动态规划" scheme="https://xxeray.github.io/tags/dynamic-programming/"/>
+    
+    <category term="数据结构" scheme="https://xxeray.github.io/tags/data-structure/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KMP 详解</title>
+    <link href="https://xxeray.github.io/post/kmp/"/>
+    <id>https://xxeray.github.io/post/kmp/</id>
+    <published>2021-01-27T09:17:45.000Z</published>
+    <updated>2024-06-20T02:37:32.153Z</updated>
+    
+    
+    <summary type="html">字符串子串问题的极致复杂度！</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树状数组详解</title>
+    <link href="https://xxeray.github.io/post/binary-indexed-tree/"/>
+    <id>https://xxeray.github.io/post/binary-indexed-tree/</id>
+    <published>2021-01-24T23:58:02.000Z</published>
+    <updated>2024-06-20T02:37:32.163Z</updated>
+    
+    
+    <summary type="html">树状数组是一种 $&#92;log$ 级数据结构，那么它又是怎么做到快速区间修改查询的呢？</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="数据结构" scheme="https://xxeray.github.io/tags/data-structure/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Z 算法/拓展 KMP 详解</title>
+    <link href="https://xxeray.github.io/post/z-algorithm/"/>
+    <id>https://xxeray.github.io/post/z-algorithm/</id>
+    <published>2021-01-23T10:58:06.000Z</published>
+    <updated>2024-06-20T02:37:32.156Z</updated>
+    
+    
+    <summary type="html">Z 算法又称拓展 KMP，两者的区别在哪儿呢？</summary>
+    
+    
+    
+    <category term="知识点" scheme="https://xxeray.github.io/categories/knowledge-point/"/>
+    
+    
+    <category term="字符串" scheme="https://xxeray.github.io/tags/string/"/>
+    
+  </entry>
+  
+</feed>
