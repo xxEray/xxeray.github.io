@@ -4,7 +4,7 @@
 
 # Site
 title: Eray's Blog
-subtitle: 不管怎么样，明天又是新的一天。
+subtitle: 知识，与你分享！
 description: 主要记录 OI 中的算法、题解、经验交流。
 keywords: [Eray, Blog]
 author: Eray
@@ -108,6 +108,7 @@ tag_map:
   搜索: searching
   剪枝: pruning
   日常: daily
+  贪心: greedy
   杂项: other
 
 # Metadata elements
