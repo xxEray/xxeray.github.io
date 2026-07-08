@@ -11,7 +11,7 @@
   locale: config.waline.locale,
   wordLimit: config.waline.wordLimit,
   pageSize: config.waline.pageSize,
-  libUrl: config.waline.libUrl | default('//unpkg.com/@waline/client@v3/dist/waline.js', true),
+  libUrl: config.waline.libUrl | default('//unpkg.com/@waline/client@v2/dist/waline.js', true),
   path: url_for(page.path) | replace(r/\/index\.html$/, '/')
 }) }}
 <link rel="stylesheet" href="{{ config.waline.cssUrl }}">
