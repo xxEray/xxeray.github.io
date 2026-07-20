@@ -144,7 +144,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/xxeray/xxeray.github.io.git
+  repository: git@github.com:xxEray/xxeray.github.io.git
   branch: master
 
 # Search
